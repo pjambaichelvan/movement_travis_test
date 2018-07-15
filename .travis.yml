@@ -1,4 +1,4 @@
 language: objective-c  #1
 osx_image: xcode9 #2
 
-script: xcodebuild clean && xcodebuild build  -project Movement.xcodeproj -scheme Movement CODE_SIGNING_REQUIRED=NO
+script: xcodebuild clean && xcodebuild build  -project Movement.xcodeproj -scheme Movement CODE_SIGN_IDENTITY=""  CODE_SIGNING_REQUIRED=NO
