@@ -1,0 +1,6 @@
+.*.swp
+*.pyc
+xcuserdata/
+.DS_Store
+build/
+server.dat
